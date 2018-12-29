@@ -4,9 +4,8 @@
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0
     print "FizzBuzz"
-  #elsif int % 3 == 0
-  #  puts "Fizz"
-  #elsif int % 5 == 0 
-  #  puts "Buzz"
-  #else puts "nil"
+  elsif int % 3 == 0
+    puts "Fizz"
+  else int % 5 == 0 
+    puts "Buzz"
 end
